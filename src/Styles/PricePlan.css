@@ -1,0 +1,45 @@
+
+/* Container for the entire price plane section */
+.price-plane-container {
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18181b; /* Optional background */
+    overflow: hidden;
+  }
+  #hh{
+    color: black;
+  }
+  /* Flex container to layout the columns */
+  .price-planes {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+  }
+  
+  /* Each individual price column */
+  .price-column {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button styling */
+  .price-btn {
+    padding: 10px 20px;
+    background-color: #71e258;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+
+  

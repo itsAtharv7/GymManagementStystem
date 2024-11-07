@@ -1,0 +1,23 @@
+.workout-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .workout-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  
+  .workout-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  
